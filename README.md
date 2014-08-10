@@ -52,6 +52,12 @@ $e2 = new Employee();
 $e2->addEmployee(["id" => 2, "lastName" => "Smith", "birthDate" => "03/01/1975", "firstName" => "Mary"]);
 echo $e2;
 ```
+The result:
+
+```
+Id: 1 - LastName: - FirstName: Jonh - BirthDate: 
+Id: 2 - LastName: Smith - FirstName: Mary - BirthDate: 03/01/1975
+```
 
 TODO:
 Pass one callback to manage the functionality of the method with the arguments passed.
