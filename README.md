@@ -18,6 +18,7 @@ trait SignatureTrait {
                 $property = "_$key";
                 for($i = 0;$i <count($this->_signature[$name]);$i++){
                     if($key == $this->_signature[$name][$i]){
+                        //Here only change the object property
                         $this->$property = $arguments[0][$key];
                     }
                 }
